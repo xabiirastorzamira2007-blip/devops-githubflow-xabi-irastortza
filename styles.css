@@ -153,3 +153,13 @@ footer {
     padding-top: 15px;
     font-size: 0.9rem;
 }
+
+
+/* FOOTER RESPONSIVE */
+
+@media (max-width: 600px) {
+    .footer-contenido {
+        flex-direction: column;
+        text-align: center;
+    }
+}
